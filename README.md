@@ -1,7 +1,7 @@
 # M5Stack COM.X SigFox 拡張モジュール用プログラム
 
-## デバイス登録に必要なデバイス ID と PAC 番号を表示する。
+## サンプルプログラム（`sample.m5f`）
 
-![](https://i.gyazo.com/d27ada83c5ad1d149532285a06ed0146.png 'UiFlow画面')
+[M5Stack COM.X Sigfox の使い方](https://www.kccs-iot.jp/20200918-technical/)と同じ機能を M5Stack Core2 を使って UiFlow で実装したもの（Ack の RX はまだパースしていない）。A ボタンで`AT$SF=CAFE`，B ボタンで`AT$SF=C0FFEE,1`，C ボタンでデバイス ID と PAC 番号を画面に表示する。
 
-`Get Information for Registering Device.m5f`
+![](https://i.gyazo.com/ad08fd37e71ba61836bc228c0a4acec8.png 'UiFlow画面')
